@@ -1,0 +1,7 @@
+entity SearchResult {
+	source String,
+	text String,
+	url String
+}
+
+paginate SearchResult with pagination
